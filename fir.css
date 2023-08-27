@@ -1,0 +1,49 @@
+div{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    
+}
+
+/* .box{
+    position: relative;
+    top: 100px;
+    left: 30px;
+} */
+#b{
+    position: relative;
+    top: 200px;
+    left: 60px;
+}
+/* for fixed any box */
+
+/* #a{
+    position: fixed;
+} */
+
+.wrapper{
+    height:1000px;
+    width: 100vw;
+    border: 1px solid black;
+    background-color: blue;
+    
+}
+#d{
+    position: absolute;
+    right: 100px;
+}
+#c{
+    position: sticky;
+    top: 0px;
+}
+
+/* for 3D effect */
+
+.box{
+    transform: perspective(10px) translateZ(-10px);
+}
+#a{
+    transform: perspective(100px) scaleZ(2) rotateX(15deg) rotateY(15deg) rotateZ(10deg);
+}
